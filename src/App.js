@@ -1,5 +1,10 @@
 import React from 'react'
 import './App.css';
+import logo from './logo.svg';
+import hero from './hero.jpg';
+import arrow from './arrow.svg';
+import desktop from './desktop.svg';
+
 
 class App extends React.Component {
   render(){
@@ -11,6 +16,11 @@ class App extends React.Component {
       <form>
         <input placeholder="Email Address"></input>
       </form>
+      <img src={logo} id="logo" alt="logo" />
+      <img src={hero} id="hero" alt="woman" />
+      {/* <img src={arrow} id="arrow" alt="arrow" /> */}
+      {/* <img src={desktop} id="desktop" alt="desktop background" /> */}
+
     </div>
   );
   }
