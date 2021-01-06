@@ -97,7 +97,22 @@ p#p2 {
   color: hsl(0, 36%, 70%);
   
 }
-form {
-  position: absolute; left: 300px; top: 695px;
+input {
+  position: absolute; left: 189px; top: 605px;
+  border-radius: 30px;
+  border: 1px solid hsl(0, 36%, 70%);
+  width: 400px;
+  height: 60px;
+  background-color: transparent;
+  font-size: 16px;
+  color: hsl(0, 36%, 70%);
+  font-family: 'Josefin Sans', sans-serif;
+  padding-left: 40px;
+
+}
+
+
+::placeholder{
+      color: hsl(0, 36%, 70%);
 
 }
