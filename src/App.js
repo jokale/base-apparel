@@ -12,7 +12,9 @@ class App extends React.Component {
     <div>
       <h1 id="first">WE'RE</h1>
       <h1 id="second">COMING <br></br> SOON</h1>
-      <p id="p">Hello fellow shoppers! We're currently building our new <br></br> fashion store. Add your email below to stay up to date with <br></br> annoucements and our launch details.</p>
+      <p id="p">Hello fellow shoppers! We're currently building our new </p>
+     <br></br> <p id="p1"> fashion store. Add your email below to stay up to date with </p>
+     <br></br><p id="p2"> annoucements and our launch details.</p>
       <form>
         <input placeholder="Email Address"></input>
       </form>
