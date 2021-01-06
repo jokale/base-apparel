@@ -7,6 +7,15 @@ import desktop from './desktop.svg';
 import error from './error.svg'
 
 class App extends React.Component {
+  
+  
+  handleClick = (e) => {
+
+  console.log(e.type);
+  alert('hey')
+  }
+  
+  
   render(){
     return (
     <div>
@@ -15,12 +24,12 @@ class App extends React.Component {
       <p id="p">Hello fellow shoppers! We're currently building our new </p>
      <br></br> <p id="p1"> fashion store. Add your email below to stay up to date with </p>
      <br></br><p id="p2"> annoucements and our launch details.</p>
-      <form>
-        <input placeholder="Email Address"></input>
-        <button id="button" type="submit"></button>
+      <form name="form">
+        <input placeholder="Email Address" name="email"></input>
+        <button id="button" type="submit" onClick={this.handleClick.bind(this)}></button>
       </form>
       <img src={logo} id="logo" alt="logo" />
-      <img src={hero} id="hero" alt="woman" />
+      {/* <img src={hero} id="hero" alt="woman" /> */}
       <img src={arrow} id="arrow" alt="arrow" />
       <img src={desktop} id="desktop" alt="desktop background" />
       {/* <img src={error} id="error" alt="error" /> */}
