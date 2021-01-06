@@ -74,3 +74,8 @@ p#p {
   font-weight: 200;
   
 }
+
+form {
+  position: absolute; left: 300px; top: 695px;
+
+}
