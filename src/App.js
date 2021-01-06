@@ -4,7 +4,7 @@ import logo from './logo.svg';
 import hero from './hero.jpg';
 import arrow from './arrow.svg';
 import desktop from './desktop.svg';
-
+import error from './error.svg'
 
 class App extends React.Component {
   render(){
@@ -17,11 +17,13 @@ class App extends React.Component {
      <br></br><p id="p2"> annoucements and our launch details.</p>
       <form>
         <input placeholder="Email Address"></input>
+        <button id="button" type="submit"></button>
       </form>
       <img src={logo} id="logo" alt="logo" />
       <img src={hero} id="hero" alt="woman" />
-      {/* <img src={arrow} id="arrow" alt="arrow" /> */}
+      <img src={arrow} id="arrow" alt="arrow" />
       <img src={desktop} id="desktop" alt="desktop background" />
+      {/* <img src={error} id="error" alt="error" /> */}
 
     </div>
   );
