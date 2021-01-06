@@ -19,7 +19,7 @@ class App extends React.Component {
       <img src={logo} id="logo" alt="logo" />
       <img src={hero} id="hero" alt="woman" />
       {/* <img src={arrow} id="arrow" alt="arrow" /> */}
-      {/* <img src={desktop} id="desktop" alt="desktop background" /> */}
+      <img src={desktop} id="desktop" alt="desktop background" />
 
     </div>
   );

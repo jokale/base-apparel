@@ -58,20 +58,26 @@ h1,h2,h3,h4,h5,h6,p{
 }
 
 h1#first {
- position: absolute; left: 300px; top: 250px;
+ position: absolute; left: 190px; top: 200px;
  font-weight: 200;
  font-size: 70px;
+ color: hsl(0, 36%, 70%);
+ letter-spacing: 0.1em;
 }
 
 h1#second {
-  position: absolute; left: 300px; top: 395px;
+  position: absolute; left: 190px; top: 275px;
   font-size: 70px;
+  color: hsl(0, 6%, 24%);
+  letter-spacing: 0.1em;
+
 }
 
 p#p {
-  position: absolute; left: 300px; top: 495px;
+  position: absolute; left: 190px; top: 475px;
   font-size: 16px;
-  font-weight: 200;
+  font-weight: 400;
+  color: hsl(0, 36%, 70%);
   
 }
 
