@@ -47,8 +47,30 @@ img#hero {
   position: absolute;right: 0px; top: 0px;
 }
 
+img#logo{
+  position: absolute; left: 50px; top: 20px;
+}
+
 /* text */
 
 h1,h2,h3,h4,h5,h6,p{
   font-family: 'Josefin Sans', sans-serif;
+}
+
+h1#first {
+ position: absolute; left: 300px; top: 250px;
+ font-weight: 200;
+ font-size: 70px;
+}
+
+h1#second {
+  position: absolute; left: 300px; top: 395px;
+  font-size: 70px;
+}
+
+p#p {
+  position: absolute; left: 300px; top: 495px;
+  font-size: 16px;
+  font-weight: 200;
+  
 }
