@@ -29,7 +29,7 @@ class App extends React.Component {
         <button id="button" type="submit" onClick={this.handleClick.bind(this)}></button>
       </form>
       <img src={logo} id="logo" alt="logo" />
-      {/* <img src={hero} id="hero" alt="woman" /> */}
+      <img src={hero} id="hero" alt="woman" />
       <img src={arrow} id="arrow" alt="arrow" />
       <img src={desktop} id="desktop" alt="desktop background" />
       {/* <img src={error} id="error" alt="error" /> */}
